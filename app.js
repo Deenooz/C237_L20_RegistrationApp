@@ -15,7 +15,7 @@ const db = mysql.createConnection({
     password: 'c237016@2026!',
     database: 'C237_016_t3regapp',
     ssl: {
-        rejectUnauthorized: false
+        rejectUnauthorized:  false
     }
 });
 
